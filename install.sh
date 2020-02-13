@@ -13,6 +13,9 @@ ssh-keygen -b 2048 -t rsa -q -N "" -f ~/.ssh/id_rsa
 # NVM
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.2/install.sh | bash
 
+# VS Code
+sudo snap install code --classic
+
 # Manual todos:
 # - add ssh key to Github, Bitbucket, DigitalOcean, Scaleway
 # - install node using 'nvm install 12.14.1'
